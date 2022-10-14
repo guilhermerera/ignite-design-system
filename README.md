@@ -11,17 +11,15 @@
 
 ### 💻 Screenshots
 
-<!-- ![](./src/assets/images/screenshot/screenshot.png) -->
-
-##### SOON :)
+![](./src/assets/images/screenshot/screenshot.png)
 
 <br>
 
 ### 🔎 Live View
 
-<!-- - [Live Site Link](https://01-ignite-feed.vercel.app) -->
-
-- Live Site Link (Not Available Yet)
+- [🌐 Live Site Link](https://01-ignite-feed.vercel.app)
+- [📚 Storybook Doc ](guilhermerera.github.io/ignite-design-system/)
+- [✏️ Figma Design System](https://www.figma.com/file/isebwceKwRrt1ScuihEsLb/Ignite-lab-Design-System?node-id=0%3A1)
 
 <br>
 
