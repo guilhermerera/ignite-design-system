@@ -12,7 +12,7 @@ export default {
 	parameters: {
 		msw: {
 			handlers: [
-				rest.post("/api/login", (req, res) => {
+				rest.post("/fakeapi/login", (req, res) => {
 					return res();
 				})
 			]
