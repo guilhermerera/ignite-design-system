@@ -17,8 +17,9 @@
 
 ### 🔎 Live View
 
-- [📚 Storybook Docs ](https://guilhermerera.github.io/ignite-design-system/)
+- [🔗 Live Website](https://ignite-design-system.vercel.app)
 - [✏️ Figma Design System](https://www.figma.com/file/isebwceKwRrt1ScuihEsLb/Ignite-lab-Design-System?node-id=0%3A1)
+- 📚 Storybook Docs: Download or clone the repository. Install dependecies with `npm i` and run `npm run storybook`
 
 <br>
 
