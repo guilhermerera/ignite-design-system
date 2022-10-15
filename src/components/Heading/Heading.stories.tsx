@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Heading, HeadingProps } from "./Heading";
+import { Heading, HeadingProps } from "./";
 
 export default {
-	title: "Components/Titles",
+	title: "Components/Heading",
 	component: Heading,
 	args: {
 		children: "Lorem ipsum dolor sit amet"
@@ -12,6 +12,16 @@ export default {
 			options: ["sm", "md", "lg"],
 			control: {
 				type: "inline-radio"
+			}
+		},
+		className: {
+			table: {
+				disable: true
+			}
+		},
+		asChild: {
+			table: {
+				disable: true
 			}
 		}
 	}

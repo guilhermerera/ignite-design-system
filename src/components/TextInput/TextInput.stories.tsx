@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { Envelope } from "phosphor-react";
-import { TextInput, TextInputRootProps } from "./TextInput";
+import { TextInput, TextInputRootProps } from "./";
 
 export default {
 	title: "Components/TextInput",
@@ -8,10 +8,6 @@ export default {
 	args: {
 		children: [<TextInput.Input placeholder='Type your text here.' />]
 	},
-	argTypes: {}
-} as Meta<TextInputRootProps>;
-
-export const Default: StoryObj<TextInputRootProps> = {
 	argTypes: {
 		children: {
 			table: {
@@ -19,7 +15,9 @@ export const Default: StoryObj<TextInputRootProps> = {
 			}
 		}
 	}
-};
+} as Meta<TextInputRootProps>;
+
+export const Default: StoryObj<TextInputRootProps> = {};
 export const WithIcons: StoryObj<TextInputRootProps> = {
 	args: {
 		children: [
@@ -28,12 +26,5 @@ export const WithIcons: StoryObj<TextInputRootProps> = {
 			</TextInput.Icon>,
 			<TextInput.Input placeholder='user@example.com' />
 		]
-	},
-	argTypes: {
-		children: {
-			table: {
-				disable: true
-			}
-		}
 	}
 };

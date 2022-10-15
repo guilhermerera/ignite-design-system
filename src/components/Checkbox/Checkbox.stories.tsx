@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Checkbox, CheckboxProps } from "./Checkbox";
+import { Checkbox, CheckboxProps } from "./";
 
 export default {
 	title: "Components/Checkbox",
@@ -10,4 +10,12 @@ export default {
 	argTypes: {}
 } as Meta<CheckboxProps>;
 
-export const Default: StoryObj<CheckboxProps> = {};
+export const Default: StoryObj<CheckboxProps> = {
+	argTypes: {
+		asChild: {
+			table: {
+				disable: true
+			}
+		}
+	}
+};

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Text, TextProps } from "./Text";
+import { Text, TextProps } from "./";
 
 export default {
 	title: "Components/Text",
@@ -13,6 +13,16 @@ export default {
 			options: ["sm", "md", "lg"],
 			control: {
 				type: "inline-radio"
+			}
+		},
+		className: {
+			table: {
+				disable: true
+			}
+		},
+		asChild: {
+			table: {
+				disable: true
 			}
 		}
 	}

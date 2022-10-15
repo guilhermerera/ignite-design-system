@@ -1,7 +1,6 @@
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
-import { Slot } from "@radix-ui/react-slot";
 import { Check } from "phosphor-react";
-import { Text } from "./Text";
+import { Text } from "../Text";
 
 export interface CheckboxProps extends CheckboxPrimitive.CheckboxProps {
 	label?: string;

@@ -1,6 +1,7 @@
 import { InputHTMLAttributes, ReactNode } from "react";
 import { Slot } from "@radix-ui/react-slot";
 
+//Text Input Root Element
 export interface TextInputRootProps {
 	children: ReactNode;
 }
@@ -15,6 +16,7 @@ function TextInputRoot({ children }: TextInputRootProps) {
 
 TextInputRoot.displayName = "TextInput.Root";
 
+//Text Input Icon Element
 export interface TextInputIconProps {
 	children: ReactNode;
 }
@@ -24,6 +26,7 @@ function TextInputIcon({ children }: TextInputIconProps) {
 }
 TextInputIcon.displayName = "TextInput.Icon";
 
+//Text Input Input Field Element
 export interface TextInputInputProps
 	extends InputHTMLAttributes<HTMLInputElement> {}
 
