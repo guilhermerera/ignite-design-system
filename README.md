@@ -24,7 +24,7 @@
 
 ### 🎯 Project Goal
 
-The goal was to learn how to work with Figma and how to create a design system on it. Also, how to get all that information set up with TailwindCSS in a React project, advanced techniques such as Component Composition, documenting and testing the UI with Storybook integrated with Jest, a little bit of Radix and more.
+The goal was to learn how to work with Figma and how to create a design system on it. Also, how to get all that information set up with TailwindCSS in a React project, advanced techniques such as Component Composition, documenting and testing the UI with Storybook integrated with Jest, a little bit of Radix and deploying on GitHub Pages using Actions.
 
 <br>
 
