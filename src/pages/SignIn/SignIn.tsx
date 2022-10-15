@@ -11,15 +11,13 @@ import ReactLogo from "../../ReactLogo";
 
 export function SignIn() {
 	const [isUserSignedIn, setIsUserSignedIn] = useState(false);
-	const [loginInfo, setLoginInfo] = useState({});
-	const [loginMessage, setLoginMessage] = useState("");
 
-	//Simulating a login API call
 	async function handleSignIn(event: FormEvent) {
 		event.preventDefault();
 
+		//Simulating a login API call
 		await axios.post("/api/login", {
-			data: loginInfo
+			data: { email: "user@example.com", password: "12345678" }
 		});
 
 		setIsUserSignedIn(true);
