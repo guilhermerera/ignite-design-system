@@ -17,8 +17,7 @@
 
 ### 🔎 Live View
 
-- [🌐 Live Site Link](https://ignite-design-system.vercel.app/)
-- [📚 Storybook Doc ](https://guilhermerera.github.io/ignite-design-system/)
+- [📚 Storybook Docs ](https://guilhermerera.github.io/ignite-design-system/)
 - [✏️ Figma Design System](https://www.figma.com/file/isebwceKwRrt1ScuihEsLb/Ignite-lab-Design-System?node-id=0%3A1)
 
 <br>
