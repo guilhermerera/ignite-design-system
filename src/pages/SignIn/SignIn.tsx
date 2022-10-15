@@ -16,7 +16,7 @@ export function SignIn() {
 		event.preventDefault();
 
 		//Simulating a login API call
-		await axios.post("/api/login", {
+		await axios.post("/fakeapi/login", {
 			data: { email: "user@example.com", password: "12345678" }
 		});
 
